@@ -24,7 +24,7 @@ output "service_credentials_object" {
 }
 
 output "service_credential_secrets" {
-    value       = "service_credential_secrets"
+    value       = var.service_credential_secrets
 }
 
 output "service_credential_secret_groups" {
